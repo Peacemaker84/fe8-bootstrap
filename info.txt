@@ -1,15 +1,18 @@
-npm - node package manager
+
+npm - node package manager => node_modules
 yarn - пакетный менеджер со стороны
 
 Работает только от имени администратора
-(sudo) mpm i yarn -g
+sudo npm i yarn -g
 npm install yarn --global
 
 Проверка установки yarn:
 yarn --version
 
-npm install => 16058 (105mb)
-yarn install => 15498 (101mb)
+Если Windows не хочет работать (VSCode) => cmd
+
+npm install => 16058 (105Mb)
+yarn install => 15498 (101Mb)
 
 Запуск проекта на yarn 
 yarn start
@@ -17,18 +20,28 @@ yarn start
 Остановка проекта на yarn
 Ctrl + C
 
-Bootstrap без реакта (html, CSS)
+Bootstrap без реакта (html/css)
 https://getbootstrap.com/
+То же самое на русском:
+https://bootstrap-4.ru/
 
-Bootstrap на React
+Bootsrap на React
 https://react-bootstrap.github.io/
-запуск - yarn add react-bootstrapyarn add react-bootstrap
+yarn add react-bootstrap
 
-Иконки Bootsrap-icons
-https://icons.getbootstrap.com
+Иконки Bootstrap-icons 
+https://icons.getbootstrap.com/
 
+Bootstrap-icons на React
+https://www.npmjs.com/package/react-bootstrap-icons
+yarn add react-bootstrap-icons
 
 Ролик от Лексы
 https://www.youtube.com/watch?v=uZ7mNJlLy6w&list=PLPNYkZcYUF4tbHazsLLRu8f4VGAv87EsO&index=3&ab_channel=SpecialistTV
 
+Интересная статья про дизайн
+https://ux.pub/editorial/glassmorfizm-glassmorphism-novyi-triend-v-dizainie-intierfieisov-437k
 
+MUI
+https://mui.com/
+npm install @mui/material @emotion/react @emotion/styled
